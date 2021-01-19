@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration Form</title>
+	<style type="text/css">
+		th{
+			font-size: 20px;
+			text-align: left;
+		}
+	</style>
+</head>
+<body style="font-weight: bold;font-family: courier">
+	<table cellspacing="0" cellpadding="3" width="100%">
+	    <tr>
+			<td align="center">
+				<img src="comtel-logo.png">
+			</td>
+		</tr>
+	    <tr>
+			<td>
+				<p style="text-align: center;font-weight: bolder;font-size: 30px;color: darkblue;font-family: courier"><u>REGISTRATION FORM</u></p>
+			</td>
+		</tr>
+	</table>
+	<form method="post" action="mailto:mndpsinghgkv001@gmail.com">
+		<table border="1px solid black" cellspacing="0" cellpadding="10" width="80%" align="center">
+			<tr>
+				<th>Registration No</th>
+				<td>
+                    <input type="text" name="Registration No" value="COMTEL\" required style="border: none;width: 100%;height: 40px">
+				</td>
+				<td rowspan="6"><p style="text-align:center;font-weight: normal;font-size: 15px">Paste a Recent<br> Passport Size<br> Photo Here.</p>
+				</td>
+			</tr>
+			<tr>
+				<th>Name (Mr./Mrs./Ms.)</th>
+				<td>
+					<input type="text" name="Name" required style="border: none;width: 100%;height: 40px">
+				</td>
+			</tr>
+			<tr>
+				<th>Father/Husband Name</th>
+				<td>
+				<input type="text" name="Father/Husband Name" required value="Mr." style="border: none;width: 100%;height: 40px">
+			    </td>
+			</tr>
+			<tr>
+				<th>Mother's Name</th>
+				<td>
+					<input type="text" name="Mother Name" value="Mrs." required style="border: none;width: 100%;height: 40px">
+				</td>
+			</tr>
+			<tr>
+				<th>Date of Birth</th>
+				<td><input type="date" name="date" required style="border: none;width: 100%;height: 40px"></td>
+			</tr>
+			<tr>
+				<th>Gender</th>
+				<td>
+					Male<input type="radio" name="Gender" value="male">
+					Female<input type="radio" name="Gender" value="female">
+				</td>
+			</tr>
+			<tr>
+				<th>Category</th>
+				<td colspan="2">
+					General<input type="radio" name="Category" value="general">
+					OBC<input type="radio" name="Category" value="obc">
+					SC/ST<input type="radio" name="Category" value="sc/st">
+					Other<input type="radio" name="Category" value="other">
+				</td>
+			</tr>
+			<tr>
+				<th height="70px">Address</th>
+				<td colspan="2">
+					<textarea rows="5" cols="60" name="address" placeholder="Enter Your Address Here..." style="border: none;resize: none;width: 100%;height: 100px" required></textarea>
+				</td>
+			</tr>
+			<tr>
+				<th>Qualification</th>
+				<td colspan="2">
+					<input type="text" name="Qualification" style="border: none;width: 100%;height: 40px" required>
+				</td>
+			</tr>
+			<tr>
+				<th>College/University</th>
+				<td colspan="2">
+					<input type="text" name="College/University" style="border: none;width: 100%;height: 40px" required>
+				</td>
+			</tr>
+			<tr>
+				<th>Course</th>
+				<td colspan="2">
+					<input type="text" name="Course" style="border: none;width: 100%;height: 40px" required>
+				</td>
+			</tr>
+			<tr>
+				<th>Duration</th>
+				<td colspan="2">
+					<input type="text" name="Duration" style="border: none;width: 100%;height: 40px" required>
+				</td>
+			</tr>
+			<tr>
+				<th>Timing</th>
+				<td colspan="2">
+					<input type="time" name="Timing" style="border: none;width: 100%;height: 40px" required>
+				</td>
+			</tr>
+		    <tr>
+				<th>Contact No</th>
+				<td colspan="2">
+					<input type="number" maxlength="13" minlength="10" name="Contact No" style="border: none;width: 100%;height: 40px" required>
+				</td>
+			</tr>
+			<tr>
+				<th>E-mail ID</th>
+				<td colspan="2">
+					<input type="email" name="E-mail" style="border: none;width: 100%;height: 40px" required>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="3">
+					<p><input type="checkbox" name="declaration" value="declared" required>I confirm that the information furnished above is true in my knowledge.</p>
+					<p>Date<input type="date" name="date" style="border: none;border-bottom: 1px;width: 100%;height:40px" required> </p>
+					<p>Signature of Candidate<input type="text" name="signature" style="border: none;border-bottom: 1px;width: 100%;height: 40px"></p>	
+				</td>
+			</tr>
+			<tr>
+				<td colspan="3" align="center">
+					<input type="submit" name="submit">
+					<input type="reset" name="reset">
+				</td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
